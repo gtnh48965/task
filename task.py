@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 import datetime
 from typing import List, Tuple
 
-
+telebot.apihelper.proxy = {'https': 'https://34.69.217.48:3128'}
 token = '1000855864:AAFdF7HMvV14s9rcad1gYhCRHVVcTQI6Jrk'
 Xday = ['1day', '2day', '3day', '4day', '5day', '6day', '7day']
 no_les='пар нет'
